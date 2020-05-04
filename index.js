@@ -1,4 +1,5 @@
 var express = require('express')
+var chartJs = require('chart.js')
 var app = express()
 
 app.set('port', (process.env.PORT || 5000))
